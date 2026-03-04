@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Digital - Dolce Café AACD Ibirapuera</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <header class="header">
+            <img src="images/logo.png" alt="Dolce Café" class="logo-img">
+            <div class="header-text">
+                <h1>Cardápio Digital</h1>
+                <p>Faça seu pedido com praticidade</p>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <section class="menu-area">
+                <h2 class="section-title">Nosso Cardápio</h2>
+                <div id="menu-container"></div>
+            </section>
+
+            <aside class="order-area">
+                <h2 class="section-title cart-title">
+                    <img src="images/seu_pedido.png" alt="Seu Pedido" class="category-icon">
+                    <span>Seu Pedido</span>
+                </h2>
+                
+                <div class="cart-section">
+                    <div id="carrinho-container"></div>
+                    <div class="cart-total">
+                        <span>Total:</span>
+                        <span id="total">R$ 0,00</span>
+                    </div>
+                </div>
+
+                <form class="order-form">
+                    <label for="nome">Seu nome:</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome" required>
+
+                    <label for="tipo-consumo">Como você quer consumir?</label>
+                    <select id="tipo-consumo" required>
+                        <option value="">Selecione...</option>
+                        <option value="Comer no local">Comer no local</option>
+                        <option value="Entrega no leito">Entrega no leito / setor do paciente</option>
+                    </select>
+
+                    <label for="setor">Setor / Local de Entrega (se for entrega):</label>
+                    <select id="setor">
+                        <option value="">Selecione...</option>
+                    </select>
+
+                    <label for="pagamento">Forma de pagamento:</label>
+                    <select id="pagamento" required>
+                        <option value="">Selecione...</option>
+                        <option value="Dinheiro">Dinheiro</option>
+                        <option value="Débito">Débito</option>
+                        <option value="Crédito">Crédito</option>
+                        <option value="PIX">PIX</option>
+                    </select>
+
+                    <label for="observacoes">Observações (opcional):</label>
+                    <textarea id="observacoes" rows="4" placeholder="Ex: sem cebola, embalagem separada..."></textarea>
+
+                    <button type="button" id="btn-enviar" class="btn-submit">Enviar Pedido via WhatsApp</button>
+                </form>
+            </aside>
+        </main>
+
+        <footer class="footer">
+            <p><strong>Dolce Café AACD Ibirapuera</strong></p>
+            <p>Atendimento: Recepção da Borges Lagoa | 06h00 às 23h00</p>
+            <hr>
+            <p>Desenvolvido por <strong>Vidal Design Solutions</strong></p>
+            <p>Contato: +55 11 96864-9673</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
