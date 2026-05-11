@@ -115,7 +115,7 @@ const menuData = [
       { nome: "Lanche Natural", preco: 20.00 },
       { nome: "Pão Francês", preco: 5.50 },
       { nome: "Pão com ovos", preco: 12.00 },
-      { nome: "Cuscuz com manteiga", preco: 7,00 },
+      { nome: "Cuscuz com manteiga", preco: 7.00 },
       { nome: "Mistão de Presunto e queijo", preco: 11.50 }
     ]
   },
