@@ -115,7 +115,7 @@ const menuData = [
       { nome: "Lanche Natural", preco: 20.00 },
       { nome: "Pão Francês", preco: 5.50 },
       { nome: "Pão com ovos", preco: 12.00 },
-      { nome: "Cuscuz com manteiga", preco: 6.50 },
+      { nome: "Cuscuz com manteiga", preco: 7,00 },
       { nome: "Mistão de Presunto e queijo", preco: 11.50 }
     ]
   },
@@ -185,8 +185,8 @@ const menuData = [
       { nome: "Povilho", preco: 8.00 },
       { nome: "Bis", preco: 7.50 },
       { nome: "Pururuca", preco: 5.00 },
-      { nome: "Chocolate 34g", preco: 5.00 },
-      { nome: "Chocolate 90g", preco: 15.00 },
+      { nome: "Chocolate 20g", preco: 5.00 },
+      { nome: "Chocolate 80g", preco: 15.00 },
       { nome: "Baton", preco: 3.50 },
       { nome: "Brigadeiro", preco: 7.00 },
       { nome: "Suflair", preco: 9.00 },
