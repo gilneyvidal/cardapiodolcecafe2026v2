@@ -44,7 +44,7 @@ const menuData = [
       },
       { 
         nome: "Sugestão 4", 
-        descricao: "Filé de frango (150g) acompanhado de risoto de brócolis.", 
+        descricao: "Filé de frango (150g) acompanhado de risoto de brócolis com bacon.", 
         preco: 40.00,
         imagem: "images/sugestao4.jpg" 
       },
