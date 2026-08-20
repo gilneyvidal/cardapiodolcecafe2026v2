@@ -55,7 +55,7 @@ const menuData = [
         imagem: "images/sugestao5_ricota.jpg" 
       },
       { 
-        nome: "Sugestão 5 - Frango ou Carne", 
+        nome: "Sugestão 6 - Frango ou Carne", 
         descricao: "Panqueca de frango ou carne (200g). Acompanha salada ou arroz colorido.", 
         preco: 35.90,
         imagem: "images/sugestao5_carne.jpg" 
